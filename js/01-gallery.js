@@ -34,10 +34,3 @@ function OnClick(event) {
   );
   instance.show();
 }
-
-galleryEl.addEventListener("keydown", onEscapeClick);
-function onEscapeClick(event) {
-  if (event.code === "Escape") {
-    instance.close();
-  }
-}
